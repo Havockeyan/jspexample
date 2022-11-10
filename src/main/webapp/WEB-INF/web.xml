@@ -1,0 +1,45 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>createstudent</servlet-name>
+    <jsp-file>/pages/createstudent.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+      <servlet-name>createstudent</servlet-name>
+      <url-pattern>/createstudent</url-pattern>
+  </servlet-mapping>
+  <servlet>
+        <servlet-name>showstudents</servlet-name>
+        <jsp-file>/pages/showStudents.jsp</jsp-file>
+  </servlet>
+
+  <servlet-mapping>
+        <servlet-name>showstudents</servlet-name>
+        <url-pattern>/showstudents</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+        <servlet-name>editstudent</servlet-name>
+        <jsp-file>/pages/editStudent.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>editstudent</servlet-name>
+        <url-pattern>/editstudent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deletestudent</servlet-name>
+        <jsp-file>/pages/deleteStudent.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>deletestudent</servlet-name>
+        <url-pattern>/deletestudent</url-pattern>
+    </servlet-mapping>
+</web-app>

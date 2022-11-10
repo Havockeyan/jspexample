@@ -1,0 +1,17 @@
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.button {
+    background: #ff9999;
+    cursor: pointer;
+}
+
+form {
+    padding: 2%;
+    background: #247c5c;
+    border: 2px solid black;
+}
